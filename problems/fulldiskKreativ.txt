@@ -1,0 +1,19 @@
+df -h 
+https://ubuntuforums.org/showthread.php?t=881122
+using  resize2fs /dev/sda1
+tutorial to resize without loosing data
+https://www.howtoforge.com/linux_resizing_ext3_partitions
+
+list ascending size of directories
+
+du -sh * | sort -h
+
+create directory and mount it to sdb
+https://u
+buntufor
+ums.org/showthread.php?t=1260098
+mkdir newDirectory
+sudo mount /dev/sdb /newDirectory 
+
+copy all 
+cp -a /path/from /path/to
